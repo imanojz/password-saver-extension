@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Saver</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body class="temp1">
+    
+    <box class="box">
+        Website :
+        <input type="text" class="inp" id="website" placeholder="Website name..."/>
+        Gmail :
+        <input type="text" class="inp" id="gmail" placeholder="Gmail name..."/>
+        Password :
+        <input type="text" class="inp" id="password" placeholder="Password..."/>
+        
+        <button id="btn1" class="btn btn1">Submit</button>
+        <button id="show" class="data_show">
+            <img src="/image/arrow_icon.png" class="img_icon">
+        </button>
+    </box>
+
+    <box class="box2">
+        <button id="fetch" class="btn btn2">
+            <box class="backBtn reload"><i class="fas fa-arrow-left"></i></box>
+            <box id="refrace" class="reload"><i class="ri-loop-left-line"></i></box>
+        </button>
+        <box class="websites">
+        </box>
+        <button class="btn-delete">Delete</button>
+    </box>
+
+    <box class="box3">
+        <button class="btn btn3">
+            <box class="backBtn reload"><i class="fas fa-arrow-left"></i></box>
+        </button>
+        <box class="gmail">
+            <box class="bb gmaill">Gmail</box>
+            <box class="bb pass">Password</box>
+        </box>
+        <box class="mai"></box>
+    </box>
+
+    <script src="jquery.js"></script>
+    <script src="content.js" defer></script>
+    
+</body>
+</html>
