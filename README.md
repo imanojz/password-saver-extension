@@ -106,7 +106,6 @@ password-saver-extension/
 ├── jquery.js/
 ├── popup.css/
 ├── assets/
-│ ├── arrow_icon.png
 │ ├── Gmail_new_Logo_16.png
 │ ├── Gmail_new_Logo_32.png
 │ ├── Gmail_new_Logo_48.png
